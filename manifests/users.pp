@@ -1,3 +1,4 @@
+# Lists the users on the system and their keys
 class users {
     account{ 'yuvipanda':
         groups => ['sudo'],
