@@ -4,4 +4,5 @@ class servers {
 
     # Configuration for individual sites
     include sites::omgwtf
+    include sites::losermatrimony
 }
