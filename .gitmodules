@@ -1,0 +1,3 @@
+[submodule "modules/account"]
+	path = modules/account
+	url = https://github.com/torrancew/puppet-account.git
