@@ -7,3 +7,6 @@
 [submodule "modules/stdlib"]
 	path = modules/stdlib
 	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
+[submodule "modules/znc"]
+	path = modules/znc
+	url = https://github.com/yuvipanda/puppet-znc.git
