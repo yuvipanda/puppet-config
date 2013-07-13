@@ -14,6 +14,7 @@ define localuser(
 
     file{ "private-${name}":
         path    => "/home/${name}/.private",
+        ensure  => "directory",
         owner   => $name,
         group   => $name,
         mode    => 'u=rwx,g=rwx,o=',
