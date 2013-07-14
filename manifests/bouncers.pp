@@ -13,6 +13,6 @@ class bouncers {
         ensure => present,
         admin  => true,
         buffer => 500,
-        pass => 'tello'#file('/home/yuvipanda/.private/passwords/znc')
+        pass => file('/home/yuvipanda/.private/passwords/znc')
     }
 }
