@@ -13,4 +13,11 @@ class users {
         ssh_key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDPYboGNFkrXFXLlmtWLmF/teGQDSahuhcghlPrV2DX5JgRsqWBiSXKQPnMcmUi39MJ7hjIAuHdZhb4yHpx/JIgO4ILFcNv/fkmcmrPj1vfHZbgn4SVFfR4m/fJZTFZs9Wz5CJ9mbmq5TglBZtMR0Mu9nI2BdpLoAMCo98AeZh5oHGzhIgarKtdx8q+JmE0vMArv3ii12qh06KkPyErtiocbOfQ6sSaX9aQm9fBq/4EXgK9J+HmxcWCfWtu6PeEUwiYF9bupZ9Q6WLyEXcsIY2jbCTTwqJoqDuijlqOD/zjIwFa1oVFMQ/dmJWC5k6d/aVrWL+qYg6zxD+eXhb0nvO7',
         comment => 'she is nice'
     }
+
+    localuser { 'ganesh':
+        name    => 'ganesh',
+        groups  => [],
+        ssh_key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQChmr8ezokEDz5FKPeEY5GFnDFzx+6SOLCGyUn5PBTLaqE+g/BXEwFKWmfCy2tcJ+AJdeyYlZsZsmYvohsXdsJstLNY82tmEhoeC4MhIAuchUp/KGGbqfsJexhNF6QFVqczg+pjYmQQUqN36SKM1QDwC2BzbPQbPuv4orIiEGRaRlklsOC1S93iUgsDQxWpnD1RXKBg8siiGCALLtWG+1yacpTqOEtqAWG45X9y/74aFz0iYkHPT3eoGOTeJgiawZYntRAKTLot3OCR6Q1TcnmK+KbATSxIeuO+uZ2niNI345q6WdKGtBTqg8XapSYIzgHzIE6yIbFO4VKP794i+2uD',
+        comment => ''
+    }
 }
