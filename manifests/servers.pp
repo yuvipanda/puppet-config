@@ -2,7 +2,22 @@
 class servers {
     class { 'nginx': }
 
+    class { 'apache': 
+        default_vhost => false,
+        mpm_module => 'prefork'
+    }
+
+    class { 'apache::mod::php':
+    }
+
+    apache::mod { 'rewrite':
+    }
+
+    class { 'mysql::server':
+    }
+
     # Configuration for individual sites
     include sites::omgwtf
     include sites::losermatrimony
+    include sites::owncloud
 }
