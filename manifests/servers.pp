@@ -19,5 +19,7 @@ class servers {
     # Configuration for individual sites
     include sites::omgwtf
     include sites::losermatrimony
-    include sites::owncloud
+    class { 'sites::owncloud':
+        domain => 'cloud.yuvi.in'
+    }
 }
