@@ -20,4 +20,11 @@ class users {
         ssh_key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQChmr8ezokEDz5FKPeEY5GFnDFzx+6SOLCGyUn5PBTLaqE+g/BXEwFKWmfCy2tcJ+AJdeyYlZsZsmYvohsXdsJstLNY82tmEhoeC4MhIAuchUp/KGGbqfsJexhNF6QFVqczg+pjYmQQUqN36SKM1QDwC2BzbPQbPuv4orIiEGRaRlklsOC1S93iUgsDQxWpnD1RXKBg8siiGCALLtWG+1yacpTqOEtqAWG45X9y/74aFz0iYkHPT3eoGOTeJgiawZYntRAKTLot3OCR6Q1TcnmK+KbATSxIeuO+uZ2niNI345q6WdKGtBTqg8XapSYIzgHzIE6yIbFO4VKP794i+2uD',
         comment => ''
     }
+
+    localuser { 'stylistica':
+        name => 'stylistica',
+        groups => [],
+        ssh_key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDIKLvqS6HTDW/KYw6aJxQ5W4MK2a5PVSPtvcIKuPmv5BWAkT3DfSBcux4PJptkU8X5+R2VMepqcsCXZxnMTdQOOM8/NQMfNy07KdX0dAYjADR1zesBiTgpmIIcii1qbjRmJY2YA+dKrzmmQz59W/EOfMk+k1q27EVvn8a/EeXPCEUBwukkMtRkc3J0yecT6BAwveInky+SqHq0w3eQtk1BeP+Nu9P1OWQ+L7FtkAZ7wXNppeT15IptQELz4G3b9IG9U4NLgZAWiSV5yC6itAPF67tQ8gjx5G4ePYrGOkE08duOoFPeITHAIo8D70GxNWHNkbMDBp7OmWxPCXU9k6Tt',
+        comment => "Maxwell's Silver Hammer!"
+    }
 }
