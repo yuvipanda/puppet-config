@@ -27,4 +27,11 @@ class users {
         ssh_key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDIKLvqS6HTDW/KYw6aJxQ5W4MK2a5PVSPtvcIKuPmv5BWAkT3DfSBcux4PJptkU8X5+R2VMepqcsCXZxnMTdQOOM8/NQMfNy07KdX0dAYjADR1zesBiTgpmIIcii1qbjRmJY2YA+dKrzmmQz59W/EOfMk+k1q27EVvn8a/EeXPCEUBwukkMtRkc3J0yecT6BAwveInky+SqHq0w3eQtk1BeP+Nu9P1OWQ+L7FtkAZ7wXNppeT15IptQELz4G3b9IG9U4NLgZAWiSV5yC6itAPF67tQ8gjx5G4ePYrGOkE08duOoFPeITHAIo8D70GxNWHNkbMDBp7OmWxPCXU9k6Tt',
         comment => "Maxwell's Silver Hammer!"
     }
+
+    localuser { 'scriptdevil':
+        name    => 'scriptdevil',
+        groups  => [],
+        ssh_key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQC8qZzqWO7Lfy8JjPAS6wPJmgK/VgUJKE+tx7g5DtO7NmKPHOETwy8b8+ktjsAbHc3X/z0/bfq+lpxgf/C1UP3VOuQQZmFbifE8i725p7B8W7oi608PAUv1B0dQJgF+TUPj58T+yV7bNxO06GAmfC/OHaowTsPoJipNL9EKyu1fPEwHEeYGXj2wvsRFrkHMw0bkBOUo88/iAyrCO+PqzXDzzwPenized9wb4lEhBBvQ6HnobIdyBfFdnA7rsd72ayf+iz/I9NEG/LFqeDz7U+GqO6BxitggYr69XM2IW2z3w8PFAl+Lje+FH5Ll45I6OTxpnbLlpZJzLl7W/0Phcoy/',
+        comment => 'ScriptDevil, another freeloader on this server'
+    }
 }
