@@ -4,5 +4,4 @@ node default {
     include support
     include packages
     include servers
-    include bouncers
 }
