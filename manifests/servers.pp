@@ -4,6 +4,7 @@ class servers {
     class { 'nginx': }
 
     class { 'apache': 
+        default_mods => false,
         default_vhost => false,
         mpm_module => 'prefork'
     }
