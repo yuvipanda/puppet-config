@@ -3,7 +3,7 @@ class users {
     localuser { 'yuvipanda':
         name    => 'yuvipanda',
         groups  => ['sudo'],
-        ssh_key => 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDrR80D68OpttnWGCY49ImSHPvzdCah1NckZv2U/y3Trmjp2EEeIohL8IG3iSjEnB1JirkPe1/0mHkbm0bfxqp17fHWy1g94Teb118woWt69A6pDJvnzp20faFRxOIl7UJjZ+n/Q4HSg7YToYW4hIM/I5KRKnEzi102aFHgV0cGGbxONPn0MiiEXkovlQ59gcNPWO/Wqe7gAcMIjoMvAcaumemUC5nXz8CIiFJLEfVVJ251c4q6C8TUJsxfbxkeN69AT/YqOiAO10eCbXgh0BNDactXy9oVx6u38E271KshW+ScJ671VuBQdTvv2DhrdFj2GsdzqlVYHQI9ny2JgtMX ypanda@Yuvi-Panda.local',
+        ssh_key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDrR80D68OpttnWGCY49ImSHPvzdCah1NckZv2U/y3Trmjp2EEeIohL8IG3iSjEnB1JirkPe1/0mHkbm0bfxqp17fHWy1g94Teb118woWt69A6pDJvnzp20faFRxOIl7UJjZ+n/Q4HSg7YToYW4hIM/I5KRKnEzi102aFHgV0cGGbxONPn0MiiEXkovlQ59gcNPWO/Wqe7gAcMIjoMvAcaumemUC5nXz8CIiFJLEfVVJ251c4q6C8TUJsxfbxkeN69AT/YqOiAO10eCbXgh0BNDactXy9oVx6u38E271KshW+ScJ671VuBQdTvv2DhrdFj2GsdzqlVYHQI9ny2JgtMX',
         comment => 'YuviPanda'
     }
 
